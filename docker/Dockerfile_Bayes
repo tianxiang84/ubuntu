@@ -1,0 +1,19 @@
+# This is for the Transport map python library
+# Reference: https://transportmaps.mit.edu/docs/install.html#faq
+# Issue 1: Ubuntu eoan doesn't work because it doesn't support libgfortran3
+# Issue 2: python 3 doesn't seem to work.
+# Issue 3: need libsuitesparse-dev to install scikit-sparse
+
+FROM ubuntu:18.04
+RUN apt-get update && \
+    apt-get install -y build-essential manpages-dev vim git-core \
+                       libsuitesparse-dev gcc libc6-dev gfortran libgfortran3 python2.7 python-dev python-pip python-setuptools
+RUN pip install --upgrade pip && \
+    pip install --upgrade numpy matplotlib && \
+    pip install --upgrade scikit-sparse
+WORKDIR /home
+RUN git clone https://bitbucket.org/dabi86/transportmaps.git
+WORKDIR /home/transportmaps
+RUN pip install --upgrade -r requirements.txt
+RUN python setup.py install
+WORKDIR /home
