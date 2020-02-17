@@ -1,0 +1,14 @@
+version: '3'
+services:
+  firefox:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile_firefox
+    image: tianxiang84/firefox
+    container_name: firefox
+    ports:
+      - 8000:8000
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    env_file:
+      ubuntu.env

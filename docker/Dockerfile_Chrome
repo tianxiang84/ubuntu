@@ -1,0 +1,6 @@
+FROM ubuntu:eoan
+RUN apt update && apt upgrade -y && apt-get install -f -y wget gdebi-core gnupg2 vim
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+RUN echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | tee /etc/apt/sources.list.d/google-chrome.list
+RUN apt-get update && apt-get install -y -f google-chrome-stable
+CMD google-chrome-stable --no-sandbox
