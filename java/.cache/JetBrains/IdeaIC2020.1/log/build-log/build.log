@@ -1,0 +1,431 @@
+2020-02-18 21:58:58,025 [      1]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 21:58:58,025 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 21:58:58,194 [    170]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 158 ms
+2020-02-18 21:58:58,331 [    307]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 21:58:58,534 [    510]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 203 ms
+2020-02-18 21:58:58,534 [    510]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 21:58:58,634 [    610]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 21:58:58,640 [    616]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 21:58:58,785 [    761]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2020-02-18 21:58:58,788 [    764]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 21:58:58,788 [    764]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 21:58:58,794 [    770]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 21:58:58,795 [    771]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started e848cbd7
+2020-02-18 21:58:58,803 [    779]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2020-02-18 21:58:58,872 [    848]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 19 ms
+2020-02-18 21:58:59,675 [   1651]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 721 ms
+2020-02-18 21:58:59,688 [   1664]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 737 ms
+2020-02-18 21:58:59,699 [   1675]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 21:58:59,950 [   1926]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 21:59:00,361 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 21:59:00,362 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 21:59:00,569 [    208]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 195 ms
+2020-02-18 21:59:00,632 [    271]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 60 ms
+2020-02-18 21:59:00,701 [    340]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 21:59:00,925 [    564]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 224 ms
+2020-02-18 21:59:00,925 [    564]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 21:59:01,020 [    659]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 21:59:01,026 [    665]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 21:59:01,136 [    775]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 776 ms
+2020-02-18 21:59:01,204 [    843]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-18 22:00:15,669 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:00:15,670 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:00:15,842 [    173]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 162 ms
+2020-02-18 22:00:15,935 [    266]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:00:16,106 [    437]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 171 ms
+2020-02-18 22:00:16,106 [    437]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:00:16,196 [    527]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:00:16,201 [    532]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:00:16,314 [    645]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:00:16,316 [    647]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:00:16,316 [    647]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:00:16,321 [    652]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:00:16,321 [    652]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started fa761223
+2020-02-18 22:00:16,383 [    714]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 3 ms
+2020-02-18 22:00:17,077 [   1408]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 622 ms
+2020-02-18 22:00:17,088 [   1419]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 635 ms
+2020-02-18 22:00:17,097 [   1428]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:00:17,481 [   1812]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:00:17,531 [   1862]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 370 ms; 1 sources processed (370 ms per file)
+2020-02-18 22:00:17,532 [   1863]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:00:17,912 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:00:17,912 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:00:18,117 [    205]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 194 ms
+2020-02-18 22:00:18,168 [    256]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 49 ms
+2020-02-18 22:00:18,222 [    310]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:00:18,403 [    491]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 181 ms
+2020-02-18 22:00:18,403 [    491]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:00:18,491 [    579]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:00:18,497 [    585]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:00:18,610 [    698]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 700 ms
+2020-02-18 22:01:01,901 [  43989]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:01:01,903 [  43991]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:01:01,904 [  43992]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:01:01,909 [  43997]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:01:01,909 [  43997]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 51431bf6
+2020-02-18 22:01:01,966 [  44054]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 3 ms
+2020-02-18 22:01:02,641 [  44729]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 645 ms
+2020-02-18 22:01:02,651 [  44739]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 657 ms
+2020-02-18 22:01:02,675 [  44763]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:01:02,894 [  44982]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:01:02,903 [  44991]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:01:03,215 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:01:03,215 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:01:03,388 [    173]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 164 ms
+2020-02-18 22:01:03,436 [    221]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 46 ms
+2020-02-18 22:01:03,484 [    269]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:01:03,642 [    427]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 158 ms
+2020-02-18 22:01:03,642 [    427]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:01:03,726 [    511]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:01:03,732 [    517]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:01:03,833 [    618]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 619 ms
+2020-02-18 22:01:10,258 [   7043]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:01:10,261 [   7046]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:01:10,261 [   7046]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:01:10,268 [   7053]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:01:10,268 [   7053]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 10b1b969
+2020-02-18 22:01:10,333 [   7118]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:01:10,967 [   7752]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 607 ms
+2020-02-18 22:01:10,977 [   7762]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 619 ms
+2020-02-18 22:01:10,995 [   7780]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:01:11,219 [   8004]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:01:11,229 [   8014]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:01:11,526 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:01:11,527 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:01:11,709 [    183]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 173 ms
+2020-02-18 22:01:11,758 [    232]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 47 ms
+2020-02-18 22:01:11,812 [    286]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:01:11,966 [    440]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 154 ms
+2020-02-18 22:01:11,966 [    440]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:01:12,056 [    530]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:01:12,062 [    536]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:01:12,160 [    634]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 635 ms
+2020-02-18 22:02:16,320 [  64794]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:02:16,323 [  64797]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:02:16,323 [  64797]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:02:16,329 [  64803]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:02:16,329 [  64803]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 548e8550
+2020-02-18 22:02:16,388 [  64862]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:02:17,073 [  65547]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 592 ms
+2020-02-18 22:02:17,082 [  65556]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 603 ms
+2020-02-18 22:02:17,092 [  65566]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:02:17,312 [  65786]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:02:17,315 [  65789]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:02:17,626 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:02:17,627 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:02:17,793 [    167]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 157 ms
+2020-02-18 22:02:17,839 [    213]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 44 ms
+2020-02-18 22:02:17,886 [    260]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:02:18,036 [    410]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 150 ms
+2020-02-18 22:02:18,036 [    410]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:02:18,120 [    494]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:02:18,125 [    499]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:02:18,216 [    590]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 591 ms
+2020-02-18 22:02:23,780 [   6154]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:02:23,783 [   6157]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:02:23,783 [   6157]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:02:23,788 [   6162]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:02:23,788 [   6162]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 235a5aa0
+2020-02-18 22:02:23,845 [   6219]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 1 ms
+2020-02-18 22:02:24,508 [   6882]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 625 ms
+2020-02-18 22:02:24,518 [   6892]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 637 ms
+2020-02-18 22:02:24,541 [   6915]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:02:24,893 [   7267]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:02:24,901 [   7275]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:02:25,202 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:02:25,202 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:02:25,386 [    184]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 175 ms
+2020-02-18 22:02:25,436 [    234]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 48 ms
+2020-02-18 22:02:25,488 [    286]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:02:25,646 [    444]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 158 ms
+2020-02-18 22:02:25,646 [    444]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:02:25,725 [    523]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:02:25,730 [    528]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:02:25,825 [    623]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 624 ms
+2020-02-18 22:02:33,500 [   8298]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:02:33,503 [   8301]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:02:33,503 [   8301]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:02:33,514 [   8312]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:02:33,514 [   8312]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started eb043f70
+2020-02-18 22:02:33,581 [   8379]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:02:34,241 [   9039]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 626 ms
+2020-02-18 22:02:34,251 [   9049]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 638 ms
+2020-02-18 22:02:34,269 [   9067]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:02:34,608 [   9406]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:02:34,618 [   9416]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:02:34,953 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:02:34,953 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:02:35,119 [    166]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 157 ms
+2020-02-18 22:02:35,166 [    213]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 45 ms
+2020-02-18 22:02:35,219 [    266]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:02:35,374 [    421]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 155 ms
+2020-02-18 22:02:35,374 [    421]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:02:35,467 [    514]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:02:35,473 [    520]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:02:35,573 [    620]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 621 ms
+2020-02-18 22:02:45,164 [  10211]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:false parallel compilation:false
+2020-02-18 22:02:45,167 [  10214]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:02:45,167 [  10214]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:02:45,175 [  10222]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:02:45,175 [  10222]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started f7ec757e
+2020-02-18 22:02:45,251 [  10298]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 3 ms
+2020-02-18 22:02:45,959 [  11006]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 621 ms
+2020-02-18 22:02:45,970 [  11017]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 633 ms
+2020-02-18 22:02:45,984 [  11031]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:02:46,323 [  11370]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:02:46,326 [  11373]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:02:46,635 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:02:46,636 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:02:46,808 [    173]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 163 ms
+2020-02-18 22:02:46,854 [    219]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 44 ms
+2020-02-18 22:02:46,901 [    266]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:02:47,054 [    419]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 153 ms
+2020-02-18 22:02:47,055 [    420]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:02:47,138 [    503]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:02:47,144 [    509]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:02:47,234 [    599]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 600 ms
+2020-02-18 22:05:11,564 [ 144929]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:05:11,567 [ 144932]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:05:11,567 [ 144932]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:05:11,573 [ 144938]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:05:11,573 [ 144938]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started cc5d8acf
+2020-02-18 22:05:11,637 [ 145002]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:05:12,336 [ 145701]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 669 ms
+2020-02-18 22:05:12,347 [ 145712]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 682 ms
+2020-02-18 22:05:12,365 [ 145730]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:05:12,706 [ 146071]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:05:12,717 [ 146082]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:05:13,045 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:05:13,045 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:05:13,213 [    168]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 159 ms
+2020-02-18 22:05:13,265 [    220]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 50 ms
+2020-02-18 22:05:13,319 [    274]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:05:13,483 [    438]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 164 ms
+2020-02-18 22:05:13,483 [    438]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:05:13,562 [    517]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:05:13,567 [    522]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:05:13,662 [    617]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 618 ms
+2020-02-18 22:06:02,302 [  49257]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:false parallel compilation:false
+2020-02-18 22:06:02,306 [  49261]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:06:02,306 [  49261]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:06:02,317 [  49272]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:06:02,317 [  49272]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started b54c981d
+2020-02-18 22:06:02,371 [  49326]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 1 ms
+2020-02-18 22:06:03,093 [  50048]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 647 ms
+2020-02-18 22:06:03,103 [  50058]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 659 ms
+2020-02-18 22:06:03,119 [  50074]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:06:03,463 [  50418]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:06:03,466 [  50421]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:06:03,769 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:06:03,769 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:06:03,933 [    164]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 155 ms
+2020-02-18 22:06:03,982 [    213]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 47 ms
+2020-02-18 22:06:04,030 [    261]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:06:04,189 [    420]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 159 ms
+2020-02-18 22:06:04,189 [    420]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:06:04,275 [    506]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:06:04,280 [    511]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:06:04,375 [    606]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 607 ms
+2020-02-18 22:06:08,857 [   5088]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:06:08,859 [   5090]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:06:08,859 [   5090]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:06:08,867 [   5098]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:06:08,867 [   5098]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 95d9ec38
+2020-02-18 22:06:08,940 [   5171]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:06:09,631 [   5862]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 652 ms
+2020-02-18 22:06:09,642 [   5873]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 665 ms
+2020-02-18 22:06:09,659 [   5890]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:06:09,983 [   6214]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:06:09,991 [   6222]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:06:10,304 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:06:10,305 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:06:10,467 [    163]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 154 ms
+2020-02-18 22:06:10,513 [    209]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 44 ms
+2020-02-18 22:06:10,563 [    259]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:06:10,722 [    418]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 159 ms
+2020-02-18 22:06:10,722 [    418]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:06:10,800 [    496]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:06:10,805 [    501]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:06:10,898 [    594]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 595 ms
+2020-02-18 22:06:24,294 [  13990]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:06:24,300 [  13996]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:06:24,300 [  13996]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:06:24,309 [  14005]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:06:24,309 [  14005]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started ede8dd98
+2020-02-18 22:06:24,382 [  14078]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 3 ms
+2020-02-18 22:06:25,025 [  14721]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 612 ms
+2020-02-18 22:06:25,036 [  14732]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 626 ms
+2020-02-18 22:06:25,053 [  14749]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:06:25,407 [  15103]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:06:25,451 [  15147]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 341 ms; 1 sources processed (341 ms per file)
+2020-02-18 22:06:25,453 [  15149]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:06:25,770 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:06:25,770 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:06:25,924 [    154]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 143 ms
+2020-02-18 22:06:25,969 [    199]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 43 ms
+2020-02-18 22:06:26,018 [    248]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:06:26,177 [    407]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 159 ms
+2020-02-18 22:06:26,177 [    407]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:06:26,254 [    484]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:06:26,259 [    489]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:06:26,349 [    579]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 580 ms
+2020-02-18 22:06:49,269 [  23499]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:06:49,272 [  23502]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:06:49,272 [  23502]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:06:49,280 [  23510]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:06:49,280 [  23510]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 179bc02f
+2020-02-18 22:06:49,349 [  23579]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:06:50,048 [  24278]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 664 ms
+2020-02-18 22:06:50,058 [  24288]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 676 ms
+2020-02-18 22:06:50,083 [  24313]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:06:50,435 [  24665]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:06:50,443 [  24673]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:06:50,747 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:06:50,748 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:06:50,929 [    182]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 172 ms
+2020-02-18 22:06:50,978 [    231]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 46 ms
+2020-02-18 22:06:51,026 [    279]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:06:51,179 [    432]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 153 ms
+2020-02-18 22:06:51,179 [    432]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:06:51,265 [    518]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:06:51,270 [    523]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:06:51,365 [    618]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 619 ms
+2020-02-18 22:09:48,528 [ 177781]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:09:48,532 [ 177785]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:09:48,532 [ 177785]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:09:48,540 [ 177793]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:09:48,540 [ 177793]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 13979f
+2020-02-18 22:09:48,603 [ 177856]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 3 ms
+2020-02-18 22:09:49,271 [ 178524]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 637 ms
+2020-02-18 22:09:49,281 [ 178534]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 649 ms
+2020-02-18 22:09:49,299 [ 178552]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:09:49,505 [ 178758]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:09:49,517 [ 178770]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:09:49,822 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:09:49,823 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:09:49,986 [    164]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 155 ms
+2020-02-18 22:09:50,036 [    214]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 47 ms
+2020-02-18 22:09:50,088 [    266]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:09:50,249 [    427]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 161 ms
+2020-02-18 22:09:50,249 [    427]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:09:50,322 [    500]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:09:50,327 [    505]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:09:50,419 [    597]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 598 ms
+2020-02-18 22:10:38,381 [  48559]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:10:38,385 [  48563]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:10:38,385 [  48563]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:10:38,392 [  48570]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:10:38,393 [  48571]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started b39e9d7a
+2020-02-18 22:10:38,452 [  48630]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 1 ms
+2020-02-18 22:10:39,116 [  49294]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 634 ms
+2020-02-18 22:10:39,126 [  49304]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 646 ms
+2020-02-18 22:10:39,144 [  49322]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: svd
+2020-02-18 22:10:39,367 [  49545]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:10:39,375 [  49553]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:10:39,673 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:10:39,673 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:10:39,843 [    170]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 161 ms
+2020-02-18 22:10:39,891 [    218]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 46 ms
+2020-02-18 22:10:39,941 [    268]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:10:40,097 [    424]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 156 ms
+2020-02-18 22:10:40,097 [    424]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:10:40,174 [    501]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:10:40,179 [    506]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:10:40,269 [    596]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 598 ms
+2020-02-18 22:11:08,837 [  29164]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:11:08,840 [  29167]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:11:08,840 [  29167]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:11:08,850 [  29177]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:11:08,850 [  29177]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started b55ecf1b
+2020-02-18 22:11:08,901 [  29228]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:11:09,560 [  29887]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 630 ms
+2020-02-18 22:11:09,570 [  29897]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 642 ms
+2020-02-18 22:11:09,591 [  29918]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: svd
+2020-02-18 22:11:09,952 [  30279]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:11:10,000 [  30327]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 346 ms; 2 sources processed (173 ms per file)
+2020-02-18 22:11:10,001 [  30328]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:11:10,339 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:11:10,339 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:11:10,502 [    163]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 154 ms
+2020-02-18 22:11:10,553 [    214]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 48 ms
+2020-02-18 22:11:10,602 [    263]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:11:10,756 [    417]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 154 ms
+2020-02-18 22:11:10,756 [    417]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:11:10,837 [    498]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:11:10,843 [    504]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:11:10,940 [    601]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 602 ms
+2020-02-18 22:11:14,735 [   4396]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2020-02-18 22:11:15,082 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:11:15,082 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:11:15,257 [    175]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 165 ms
+2020-02-18 22:11:15,310 [    228]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 51 ms
+2020-02-18 22:11:15,360 [    278]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:11:15,509 [    427]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 149 ms
+2020-02-18 22:11:15,509 [    427]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:11:15,592 [    510]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:11:15,597 [    515]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:11:15,699 [    617]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 618 ms
+2020-02-18 22:11:39,442 [  24360]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:11:39,445 [  24363]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:11:39,445 [  24363]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:11:39,450 [  24368]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:11:39,450 [  24368]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 8a967b2a
+2020-02-18 22:11:39,505 [  24423]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:11:40,176 [  25094]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 640 ms
+2020-02-18 22:11:40,187 [  25105]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 653 ms
+2020-02-18 22:11:40,208 [  25126]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:11:40,576 [  25494]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:11:40,588 [  25506]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:11:40,880 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:11:40,880 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:11:41,058 [    178]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 169 ms
+2020-02-18 22:11:41,109 [    229]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 48 ms
+2020-02-18 22:11:41,158 [    278]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:11:41,310 [    430]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 152 ms
+2020-02-18 22:11:41,310 [    430]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:11:41,384 [    504]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:11:41,389 [    509]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:11:41,481 [    601]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 602 ms
+2020-02-18 22:12:42,883 [  62003]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:12:42,886 [  62006]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:12:42,886 [  62006]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:12:42,892 [  62012]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:12:42,892 [  62012]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started a469b8e1
+2020-02-18 22:12:42,946 [  62066]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:12:43,626 [  62746]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 589 ms
+2020-02-18 22:12:43,636 [  62756]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 601 ms
+2020-02-18 22:12:43,650 [  62770]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:12:43,987 [  63107]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:12:43,991 [  63111]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:12:44,293 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:12:44,294 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:12:44,466 [    173]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 162 ms
+2020-02-18 22:12:44,512 [    219]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 44 ms
+2020-02-18 22:12:44,560 [    267]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:12:44,718 [    425]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 158 ms
+2020-02-18 22:12:44,718 [    425]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:12:44,796 [    503]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:12:44,801 [    508]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:12:44,900 [    607]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 608 ms
+2020-02-18 22:13:22,993 [  38700]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-18 22:13:22,996 [  38703]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-18 22:13:22,996 [  38703]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-18 22:13:23,001 [  38708]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-18 22:13:23,002 [  38709]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 77d2d2f6
+2020-02-18 22:13:23,059 [  38766]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2020-02-18 22:13:23,764 [  39471]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 674 ms
+2020-02-18 22:13:23,776 [  39483]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 689 ms
+2020-02-18 22:13:23,793 [  39500]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: svd
+2020-02-18 22:13:24,116 [  39823]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-18 22:13:24,126 [  39833]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_222 was used to compile [svd]
+2020-02-18 22:13:24,424 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-18 22:13:24,425 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/idea/plugins/java/lib/jps-launcher.jar:/opt/java/openjdk/lib/tools.jar
+2020-02-18 22:13:24,592 [    168]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 159 ms
+2020-02-18 22:13:24,639 [    215]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 45 ms
+2020-02-18 22:13:24,691 [    267]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/TSu/svd, global options path = /home/TSu/.config/JetBrains/IdeaIC2020.1/options
+2020-02-18 22:13:24,847 [    423]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 156 ms
+2020-02-18 22:13:24,847 [    423]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2020-02-18 22:13:24,936 [    512]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2020-02-18 22:13:24,942 [    518]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2020-02-18 22:13:25,036 [    612]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 613 ms
+2020-02-18 22:17:18,878 [ 234454]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
