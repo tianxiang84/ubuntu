@@ -2,3 +2,4 @@ production/
 *.class
 *.o
 *.a
+.cache/
