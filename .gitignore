@@ -2,3 +2,6 @@ production/
 *.class
 *.o
 *.a
+.idea/
+.config/
+.java/
