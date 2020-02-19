@@ -1,0 +1,27 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/svd">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1Xzy553JqAA9GvETI9TbQXKuNOs">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-201.5259.13" />
+              <option name="buildTimestamp" value="1581549694161" />
+              <option name="eap" value="true" />
+              <frame x="295" y="53" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1582063030999" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/svd" />
+      </list>
+    </option>
+  </component>
+</application>

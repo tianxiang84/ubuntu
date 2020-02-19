@@ -3,3 +3,4 @@ production/
 *.o
 *.a
 .cache/
+.java/
