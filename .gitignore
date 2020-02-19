@@ -2,6 +2,7 @@ production/
 *.class
 *.o
 *.a
+eigen3p3p7/
 .idea/
 .config/
 .java/
