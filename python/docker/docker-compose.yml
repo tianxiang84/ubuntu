@@ -1,0 +1,14 @@
+version: '3'
+services:
+  python3p8:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: tianxiang84/python
+    container_name: python
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../src/gmm_cluster:/home/TSu/gmm_cluster
+    env_file:
+      python.env
+    working_dir: /home/TSu/gmm_cluster
