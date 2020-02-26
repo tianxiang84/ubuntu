@@ -1,2 +1,11 @@
-FROM node:stretch-slim
-CMD ["/bin/bash"]
+FROM node:10
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+CMD ["node","server.js"]

@@ -8,7 +8,7 @@ services:
     container_name: nodejs
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ../app_test:/home/TSu/
+      - ../app_test/:/home/TSu/app_test
     env_file:
       javascript.env
-    work_dir: /home/TSu/app_test
+    working_dir: /home/TSu/app_test
