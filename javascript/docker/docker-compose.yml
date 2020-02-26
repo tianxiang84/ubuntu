@@ -6,9 +6,11 @@ services:
       dockerfile: ./Dockerfile
     image: tianxiang84/nodejs
     container_name: nodejs
+    ports:
+      - 8080:8080
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ../app_test/:/home/TSu/app_test
+      - ../app_test/:/home/TSu/myapp
     env_file:
       javascript.env
-    working_dir: /home/TSu/app_test
+    working_dir: /home/TSu/myapp
