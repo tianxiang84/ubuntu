@@ -1,0 +1,16 @@
+version: '3'
+services:
+  nodejs:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: tianxiang84/nodejs
+    container_name: nodejs
+    ports:
+      - 8080:8080
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../app_test/:/home/TSu/myapp
+    env_file:
+      javascript.env
+    working_dir: /home/TSu/myapp
