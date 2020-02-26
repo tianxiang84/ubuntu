@@ -4,6 +4,9 @@ docker build -f docker/Dockerfile_intellij -t tianxiang84/intellij - < docker/Do
 docker run --rm -e DISPLAY=${DISPLAY} -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd)/java:/home/TSu/java tianxiang84/intellij:latest
 java -cp out/production/my-first-java-app myfirstapp.MyJavaApp #java -cp path package.class
 
+docker run --rm -e DISPLAY=${DISPLAY} -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/TSu/Projects/conveyance/tool_planner:/home/TSu/java tianxiang84/intellij:latest
+java -cp out/production/my-first-java-app myfirstapp.MyJavaApp #java -cp path package.class
+
 Install Xming
 Set IP in x0.hosts as e.g., 172.31.224.1 (ipconfig, iPv4)
 Start Xming
