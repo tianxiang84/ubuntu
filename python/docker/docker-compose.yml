@@ -12,3 +12,20 @@ services:
     env_file:
       python.env
     working_dir: /home/TSu/gmm_cluster
+  atom:
+    build:
+       context: ./
+       dockerfile: Dockerfile_atom
+       args:
+         git_user: Tianxiang
+         git_email: TSu@slb.com
+    image: tianxiang84/atom:latest
+    container_name: atom
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../../python:/home/TSu/python
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    env_file:
+      atom.env
+    working_dir: /home/TSu/python
